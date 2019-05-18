@@ -1,6 +1,5 @@
 <aside class="Sidebar">
-    <h2>Sidebar</h2>
-    <?php
+      <?php
         if ( is_active_sidebar( 'main_sidebar' ) ):
           dynamic_sidebar( 'main_sidebar' );
         else:
@@ -10,4 +9,4 @@
           <?php get_search_form(); ?>
         </article>
       <?php endif; ?>
-  </aside>
+    </aside>
